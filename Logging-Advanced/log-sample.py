@@ -43,7 +43,7 @@ def divide(x, y):
 
 
 num_1 = 10
-num_2 = 0
+num_2 = 5
 
 add_result = add(num_1, num_2)
 logger.debug('Add: {} + {} = {}'.format(num_1, num_2, add_result))
