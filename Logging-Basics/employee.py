@@ -2,7 +2,7 @@
 import logging
 
 logging.basicConfig(filename='employee.log', level=logging.INFO,
-                    format='%(levelname)s:%(message)s')
+                    format='[%(levelname)s] : %(asctime)s : %(message)s')
 
 
 class Employee:
